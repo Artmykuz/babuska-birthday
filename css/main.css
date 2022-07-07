@@ -35,7 +35,7 @@ body {
     text-align: center;
     color: #f35f5f;
     top: 150px;
-    left: 1500px;
+    left: 2000px;
     height: 300px;
 
     animation-name: title-text;
@@ -49,7 +49,7 @@ body {
 
 @keyframes title-text {
     0%{
-        left: 1500px;
+        left: 2000px;
     }
     100% {
         left: 0;
