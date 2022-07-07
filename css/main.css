@@ -2,6 +2,17 @@
 html, body {width: 100%; max-width: 100%; overflow: hidden !important;}
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 
+body {
+    background-color: #fff1fa;
+
+    animation-name: body-backround;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 19.5s;
+}
+
+@keyframes body-backround{0% {background-color: #fff1fa} 100% {background-color: #00063e}}
 
 .title {
     position: relative;
@@ -9,7 +20,7 @@ html, body {width: 100%; max-width: 100%; overflow: hidden !important;}
     font-family: 'Eralash 02', cursive;
     letter-spacing: 6px;
     text-align: center;
-    color: #e55f00;
+    color: #f35f5f;
     top: 50px;
     left: 1000px;
     height: 300px;
@@ -49,15 +60,15 @@ html, body {width: 100%; max-width: 100%; overflow: hidden !important;}
     display: flex;
     justify-content: space-between;
 }
-/*.balloons1 { left: 0;}
-.balloons2 { right: 0; transform: scaleX(-1) !important }*/
+/*.balloons1 { left: 0;}*/
+.balloons2 { right: 0; transform: scaleX(-1) !important }
 
 @keyframes balloons {
     0%{
         top: 2000px;
     }
     100% {
-        top: 450px;
+        top: 1100px;
     }
 }
 
@@ -107,3 +118,23 @@ html, body {width: 100%; max-width: 100%; overflow: hidden !important;}
 @keyframes tort-yagody-yarus-1 {0% {bottom: 2000px}  100% {bottom: 0px}}
 @keyframes tort-yagody-yarus-2 {0% {bottom: 2000px}  100% {bottom: 0px}}
 @keyframes tort-yagody-yarus-3 {0% {bottom: 2000px}  100% {bottom: 0px}}
+
+.salut-wrapper {
+    position: absolute;
+    top: 45;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    animation-name: salut;
+    animation-duration: 2.3s;
+    animation-timing-function: easy-in;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 20s;
+    opacity: 0
+}
+
+.salut img { width: 700px;}
+
+@keyframes salut{ 0%{opacity: 0;} 100%{opacity: 100;}}
