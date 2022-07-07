@@ -1,0 +1,37 @@
+* {margin: 0;padding: 0;box-sizing: border-box;}
+html, body {width: 100%; max-width: 100%; overflow: hidden !important;}
+@font-face {
+    font-family: "Eralash 02";
+    src: url("../fonts/eralash02.woff2") format("woff2"),
+    url("../fonts/eralash02.woff") format("woff");
+}
+
+.title {
+    font-family: 'Eralash 02';
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    color:brown
+}
+
+.text {
+    padding: 0px 20px;
+    margin-top: 50px;
+    font-family: 'Eralash 02';
+    font-size: 30px;
+    text-align: center;
+}
+
+.a a{
+    display: block;
+    margin-top: 50px;
+    padding: 20px 50px;
+    text-align: center;
+    background-color: brown;
+    justify-content: center;
+    font-family: 'Eralash 02';
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none !important;
+}
