@@ -1,6 +1,10 @@
 * {margin: 0;padding: 0;box-sizing: border-box;}
 html, body {width: 100%; max-width: 100%; overflow: hidden !important;}
-@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@font-face {
+    font-family: "Eralash 02";
+    src: url("../fonts/eralash02.woff2") format("woff2"),
+    url("../fonts/eralash02.woff") format("woff");
+}
 
 .wrapper {
     max-height: 100%;
