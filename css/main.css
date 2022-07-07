@@ -29,7 +29,7 @@ body {
 
 .title {
     position: relative;
-    font-size: 80px;
+    font-size: 120px;
     font-family: 'Eralash 02', cursive;
     letter-spacing: 6px;
     text-align: center;
@@ -58,7 +58,7 @@ body {
 
 .balloons-wrapper {
     z-index: 50;
-    padding: 0 45px;
+    padding: 0 100px;
     position: absolute;
     top: 2000px;
 
@@ -135,8 +135,10 @@ body {
 @keyframes tort-yagody-yarus-3 {0% {bottom: 2000px}  100% {bottom: 0px}}
 
 .salut-wrapper {
+    margin-top: 40px;
     display: flex;
     justify-content: center;
+    width: 100%;
 
     animation-name: salut;
     animation-duration: 2.3s;
@@ -147,6 +149,8 @@ body {
     opacity: 0
 }
 
-.salut img { width: 700px;}
+.salut{width: 100%; padding: 0px 50px;}
+
+.salut img { width: 100%;}
 
 @keyframes salut{ 0%{opacity: 0;} 100%{opacity: 100;}}
