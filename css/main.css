@@ -164,8 +164,19 @@ body {
     background-color: #f35f5f;
     justify-content: center;
     font-family: 'Eralash 02';
-    font-size: 30px;
+    font-size: 100px;
     color: white;
     text-transform: uppercase;
     text-decoration: none !important;
+
+    position: relative;
+    animation-name: a;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(1,-0.87,0.297,1.87);
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 26s;
+    left: 1500px
 }
+
+@keyframes a {0% {left: 1500px} 100%{left: 0;}}
