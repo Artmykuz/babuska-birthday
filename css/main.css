@@ -78,7 +78,7 @@ body {
 
 @keyframes balloons {
     0%{
-        top: 2000px;
+        top: 2100px;
     }
     100% {
         top: 1000px;
@@ -154,3 +154,18 @@ body {
 .salut img { width: 100%;}
 
 @keyframes salut{ 0%{opacity: 0;} 100%{opacity: 100;}}
+
+.a a{
+    margin-top: 60px;
+    display: block;
+    margin-top: 50px;
+    padding: 30px 50px;
+    text-align: center;
+    background-color: #f35f5f;
+    justify-content: center;
+    font-family: 'Eralash 02';
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none !important;
+}
