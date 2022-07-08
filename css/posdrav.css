@@ -1,0 +1,43 @@
+* {margin: 0;padding: 0;box-sizing: border-box;}
+html, body {width: 100%; max-width: 100%; overflow: hidden !important;}
+@font-face {
+    font-family: "Caveat";
+    src: url("../fonts/Caveat-VariableFont_wght.woff2") format("woff2"),
+    url("../fonts/Caveat-VariableFont_wght.woff") format("woff");
+}
+
+body {text-align: center; font-family: 'Pacifico', cursive;}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    color: #d90000;
+    font-weight: 600;
+    margin-top: 30px;
+    letter-spacing: 5px;
+}
+
+.text{
+    font-size: 24px; margin-top: 10px; font-weight: 600;}
+.text2 {
+    font-size: 30px;
+    margin-top: 10px;
+    letter-spacing: 5px;
+}
+
+.wishes {
+    margin: 50px 0px;
+    font-family: Caveat;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.flowers-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.flowers{
+    max-width: 490px;
+
+}
