@@ -91,7 +91,7 @@ body {
 
 .tort {
     position: relative;
-    bottom: 40px;
+    bottom: 100px;
     width: 100%;
     padding: 0px 40px 90px 40px;
     display: inline-block;
@@ -157,13 +157,13 @@ body {
 
 .a a{
     display: block;
-    margin-top: -20px;
-    padding: 70px 80px;
+    margin-top: -130px;
+    padding: 60px 80px;
     text-align: center;
     background-color: #f35f5f;
     justify-content: center;
     font-family: 'Eralash 02';
-    font-size: 100px;
+    font-size: 90px;
     color: white;
     text-transform: uppercase;
     text-decoration: none !important;
