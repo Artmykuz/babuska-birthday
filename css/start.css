@@ -22,6 +22,12 @@ html, body {width: 100%; max-width: 100%; overflow: hidden !important;}
     text-align: center;
 }
 
+@media(max-height: 691px) {
+    .text {font-size: 22px;}
+    .title {font-size: 42px;}
+}
+
+
 .a a{
     display: block;
     margin-top: 50px;
