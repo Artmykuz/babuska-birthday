@@ -6,7 +6,13 @@ html, body {width: 100%; max-width: 100%; overflow: hidden !important;}
     url("../fonts/Caveat-VariableFont_wght.woff") format("woff");
 }
 
-body {text-align: center; font-family: 'Pacifico', cursive;}
+@font-face {
+    font-family: "Comic Sanc";
+    src: url("../fonts/Comic\ Sans\ MS.woff2") format("woff2"),
+    url("../fonts/Caveat-VariableFont_wght.woff") format("woff");
+}
+
+body {text-align: center; font-family: 'Comic Sanc', cursive;}
 
 .title {
     font-size: 30px;
