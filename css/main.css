@@ -27,6 +27,40 @@ body {
 
 @keyframes body-backround{0% {background-color: #fff1fa} 100% {background-color: #010c74}}
 
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #fff1fa;
+    z-index: 120;
+    transition: 1s all;
+    opacity: 1;
+    visibility: visible;
+}
+.preloader.done {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loader {
+    width: 100px;
+    height: 100px;
+    border: 10px solid #010c74;
+    border-radius: 50%;
+    border-top-color: #f35f5f;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: spin 1.5s infinite linear;
+}
+
+@keyframes spin{
+    0%{transform: translate(-50%, -50%) rotate(0deg);} 100%{transform: translate(-50%, -50%) rotate(360deg)}
+}
+
 .title {
     position: relative;
     font-size: 120px;
