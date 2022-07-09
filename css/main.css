@@ -11,6 +11,14 @@ html, body {width: 100%; max-width: 100%; overflow: hidden !important;}
     position: relative;
     min-width: 100%;
     margin: 0 auto;
+
+    opacity: 1;
+    visibility: visible;
+}
+
+.wrapper.done {
+    opacity: 0;
+    visibility: hidden;
 }
 
 body {
@@ -23,6 +31,7 @@ body {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-delay: 19.5s;
+    
 }
 
 @keyframes body-backround{0% {background-color: #fff1fa} 100% {background-color: #010c74}}
@@ -61,7 +70,7 @@ body {
     0%{transform: translate(-50%, -50%) rotate(0deg);} 100%{transform: translate(-50%, -50%) rotate(360deg)}
 }
 
-.title {
+.title.go {
     position: relative;
     font-size: 120px;
     font-family: 'Eralash 02', cursive;
@@ -90,7 +99,7 @@ body {
     }
 }
 
-.balloons-wrapper {
+.balloons-wrapper.go {
     z-index: 50;
     padding: 0 100px;
     position: absolute;
@@ -136,7 +145,7 @@ body {
     justify-content: center;
 }
 
-.tort-yarus {
+.tort-yarus.go {
     position: relative;
     animation-duration: 2.3s;
     animation-timing-function: easy-in;
@@ -192,7 +201,7 @@ body {
 .a-wrapper {
     margin-top: -130px;
 }
-.a a{
+.a {
     display: block;
     padding: 60px 80px;
     text-align: center;
@@ -216,7 +225,7 @@ body {
     text-align: center;
 }
 
-.a2 a{font-size: 52px; margin-top: 20px}
+.a2 {font-size: 52px; margin-top: 20px}
 
 @keyframes a {0% {left: 2500px} 100%{left: 0;}}
 
@@ -224,5 +233,5 @@ body {
     .title{font-size: 80px;}
     .salut-wrapper { margin-top: 20px; top: 20px;}
     .a-wrapper { display: flex; justify-content: space-between; grid-column-gap: 20px; height: 100%;}
-    .a a{margin-top: 0;font-size: 52px;}
+    .a {margin-top: 0;font-size: 52px;}
 }
